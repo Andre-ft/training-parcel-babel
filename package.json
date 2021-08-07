@@ -1,0 +1,38 @@
+{
+  "name": "training-parcel-babel",
+  "version": "1.0.0",
+  "description": "training to create project with babel and parcel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel src -d dist",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andre-ft/training-parcel-babel.git"
+  },
+  "keywords": [
+    "parce",
+    "babel"
+  ],
+  "author": "Andrey F <media.andrej@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andre-ft/training-parcel-babel/issues"
+  },
+  "homepage": "https://github.com/Andre-ft/training-parcel-babel#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "joi": "^17.4.2",
+    "shortid": "^2.2.16",
+    "validate.js": "^0.13.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "parcel-bundler": "^1.12.5"
+  }
+}
